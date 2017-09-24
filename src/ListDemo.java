@@ -18,8 +18,8 @@ public class ListDemo {
     // method that will print the elements in L
     // that are in positions specified by List P.
     private static void printLots(List<Integer> L, List<Integer> P) {
-        for (Integer aP : P) {
-            System.out.println(L.get(aP));
+        for (Integer eP : P) {
+            System.out.println(L.get(eP));
         }
     }
 
